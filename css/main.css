@@ -1,0 +1,31 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  line-height: 1.5em;
+}
+
+.videoWrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.videoText {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.highlight {
+  color: orange;
+}
+
+/*=====================Media Query for Medium Display======================*/
+@media(min-width: 728px) {
+  .videoWrapper, .videoText {
+    width: 75%;
+  }
+}
