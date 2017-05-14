@@ -7,12 +7,15 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/mediaelement/4.1.0/mediaelementplayer.min.js"></script>
+    <link rel="stylesheet" href ="https://cdn.jsdelivr.net/mediaelement/4.1.0/mediaelementplayer.min.css"></link>
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
 
     <div class="videoWrapper">
-      <video width="100%">
+      <video class="mejs__player" width="500" height="250">
         <source src="video/video.mp4" type="video/mp4">
         <source src="video/video.ogg" type="video/ogg">
         <track label="English" kind="subtitles" srclang="en" src="captions.vtt">

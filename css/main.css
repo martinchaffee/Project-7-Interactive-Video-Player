@@ -14,6 +14,11 @@ body {
   margin: 0 auto;
 }
 
+.video {
+  width: 90%;
+  margin-left: 100px;
+}
+
 .videoText {
   width: 90%;
   margin: 0 auto;
