@@ -10,13 +10,9 @@ body {
 }
 
 .videoWrapper {
-  width: 100%;
+  width: 80%;
+  max-width: 640px;
   margin: 0 auto;
-}
-
-.video {
-  width: 90%;
-  margin-left: 100px;
 }
 
 .videoText {
@@ -28,9 +24,21 @@ body {
   color: orange;
 }
 
+/*=======Skin for MediaElementPlayer.js========*/
+
+.videoContent .mejs__controls:not([style*="display: none"]) {
+    background: rgba(0,143,236,.3);
+}
+
+.videoContent .mejs__controls .mejs__time {
+    font-weight: 200;
+}
+
 /*=====================Media Query for Medium Display======================*/
 @media(min-width: 728px) {
   .videoWrapper, .videoText {
     width: 75%;
+    max-width: 640px;
+    margin: 0 auto;
   }
 }
