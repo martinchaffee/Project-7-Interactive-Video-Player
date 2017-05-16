@@ -87,9 +87,130 @@ transcript16.addEventListener('click', () => {
 // Solution: use currentTime property;
   //Use if/then statements w/ greater than and less than : if currentTime => x and <=y, transcript-1 color = orange; else color is inherit;
 
-function highlightText() {
+vid.addEventListener('timeupdate', function (){
+  if (vid.currentTime > 0.240 && vid.currentTime <= 4.130 ) {
+    transcript1.style.color="orange";
+  } else if (vid.currentTime < 0.240 || vid.currentTime >= 4.130 ) {
+    transcript1.style.color="black";
+  }
+});
 
-}
-while (vid.currentTime > 0.240 && vid.currentTime <= 4.130 ) {
-  transcript1.style.color="orange";
-}
+vid.addEventListener('timeupdate', function (){
+  if (vid.currentTime > 4.130 && vid.currentTime <= 7.535 ) {
+    transcript2.style.color="orange";
+  } else if (vid.currentTime < 4.130 || vid.currentTime >= 7.535 ) {
+    transcript2.style.color="black";
+  }
+});
+
+vid.addEventListener('timeupdate', function (){
+  if (vid.currentTime > 7.535 && vid.currentTime <= 11.270 ) {
+    transcript3.style.color="orange";
+  } else if (vid.currentTime < 7.535 || vid.currentTime >= 11.270 ) {
+    transcript3.style.color="black";
+  }
+});
+
+vid.addEventListener('timeupdate', function (){
+  if (vid.currentTime > 11.270 && vid.currentTime <= 13.960 ) {
+    transcript4.style.color="orange";
+  } else if (vid.currentTime < 11.270 || vid.currentTime >= 13.960 ) {
+    transcript4.style.color="black";
+  }
+});
+
+vid.addEventListener('timeupdate', function (){
+  if (vid.currentTime > 13.960 && vid.currentTime <= 17.940 ) {
+    transcript5.style.color="orange";
+  } else if (vid.currentTime < 13.960 || vid.currentTime >= 17.940 ) {
+    transcript5.style.color="black";
+  }
+});
+
+vid.addEventListener('timeupdate', function (){
+  if (vid.currentTime > 17.940 && vid.currentTime <= 22.370 ) {
+    transcript6.style.color="orange";
+  } else if (vid.currentTime < 17.940 || vid.currentTime >= 22.370 ) {
+    transcript6.style.color="black";
+  }
+});
+
+vid.addEventListener('timeupdate', function (){
+  if (vid.currentTime > 22.370 && vid.currentTime <= 26.880 ) {
+    transcript7.style.color="orange";
+  } else if (vid.currentTime < 22.370 || vid.currentTime >= 26.880 ) {
+    transcript7.style.color="black";
+  }
+});
+
+vid.addEventListener('timeupdate', function (){
+  if (vid.currentTime > 26.880 && vid.currentTime <= 30.920 ) {
+    transcript8.style.color="orange";
+  } else if (vid.currentTime < 26.880 || vid.currentTime >= 30.920 ) {
+    transcript8.style.color="black";
+  }
+});
+
+vid.addEventListener('timeupdate', function (){
+  if (vid.currentTime > 32.100 && vid.currentTime <= 34.730 ) {
+    transcript9.style.color="orange";
+  } else if (vid.currentTime < 32.100 || vid.currentTime >= 34.730 ) {
+    transcript9.style.color="black";
+  }
+});
+
+vid.addEventListener('timeupdate', function (){
+  if (vid.currentTime > 34.730 && vid.currentTime <= 39.430 ) {
+    transcript10.style.color="orange";
+  } else if (vid.currentTime < 34.730 || vid.currentTime >= 39.430 ) {
+    transcript10.style.color="black";
+  }
+});
+
+vid.addEventListener('timeupdate', function (){
+  if (vid.currentTime > 39.430 && vid.currentTime <= 41.190 ) {
+    transcript11.style.color="orange";
+  } else if (vid.currentTime < 39.430 || vid.currentTime >= 41.190 ) {
+    transcript11.style.color="black";
+  }
+});
+
+vid.addEventListener('timeupdate', function (){
+  if (vid.currentTime > 42.350 && vid.currentTime <= 46.300 ) {
+    transcript12.style.color="orange";
+  } else if (vid.currentTime < 42.350 || vid.currentTime >= 46.300 ) {
+    transcript12.style.color="black";
+  }
+});
+
+vid.addEventListener('timeupdate', function (){
+  if (vid.currentTime > 46.300 && vid.currentTime <= 49.270 ) {
+    transcript13.style.color="orange";
+  } else if (vid.currentTime < 46.300 || vid.currentTime >= 49.270 ) {
+    transcript13.style.color="black";
+  }
+});
+
+vid.addEventListener('timeupdate', function (){
+  if (vid.currentTime > 49.270 && vid.currentTime <= 53.760 ) {
+    transcript14.style.color="orange";
+  } else if (vid.currentTime < 49.270 || vid.currentTime >= 53.760 ) {
+    transcript14.style.color="black";
+  }
+});
+
+vid.addEventListener('timeupdate', function (){
+  if (vid.currentTime > 53.760 && vid.currentTime <= 57.780 ) {
+    transcript15.style.color="orange";
+  } else if (vid.currentTime < 53.760 || vid.currentTime >= 57.780 ) {
+    transcript15.style.color="black";
+  }
+});
+
+vid.addEventListener('timeupdate', function (){
+  if (vid.currentTime > 57.780 && vid.currentTime <= 60.150 ) {
+    transcript16.style.color="orange";
+  } else if (vid.currentTime < 57.780 || vid.currentTime >= 60.150 ) {
+    transcript16.style.color="black";
+  }
+});
