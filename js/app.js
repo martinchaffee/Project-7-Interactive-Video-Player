@@ -96,9 +96,9 @@ vid.addEventListener('timeupdate', function (){
 });
 
 vid.addEventListener('timeupdate', function (){
-  if (vid.currentTime > 4.130 && vid.currentTime <= 7.535 ) {
+  if (vid.currentTime > 4.13 && vid.currentTime <= 7.535 ) {
     transcript2.style.color="orange";
-  } else if (vid.currentTime < 4.130 || vid.currentTime >= 7.535 ) {
+  } else if (vid.currentTime < 4.13 || vid.currentTime >= 7.535 ) {
     transcript2.style.color="black";
   }
 });
@@ -112,17 +112,17 @@ vid.addEventListener('timeupdate', function (){
 });
 
 vid.addEventListener('timeupdate', function (){
-  if (vid.currentTime > 11.270 && vid.currentTime <= 13.960 ) {
+  if (vid.currentTime > 11.270 && vid.currentTime <= 13.96 ) {
     transcript4.style.color="orange";
-  } else if (vid.currentTime < 11.270 || vid.currentTime >= 13.960 ) {
+  } else if (vid.currentTime < 11.270 || vid.currentTime >= 13.96 ) {
     transcript4.style.color="black";
   }
 });
 
 vid.addEventListener('timeupdate', function (){
-  if (vid.currentTime > 13.960 && vid.currentTime <= 17.940 ) {
+  if (vid.currentTime > 13.96 && vid.currentTime <= 17.940 ) {
     transcript5.style.color="orange";
-  } else if (vid.currentTime < 13.960 || vid.currentTime >= 17.940 ) {
+  } else if (vid.currentTime < 13.96 || vid.currentTime >= 17.940 ) {
     transcript5.style.color="black";
   }
 });
@@ -152,9 +152,9 @@ vid.addEventListener('timeupdate', function (){
 });
 
 vid.addEventListener('timeupdate', function (){
-  if (vid.currentTime > 32.100 && vid.currentTime <= 34.730 ) {
+  if (vid.currentTime > 32.1 && vid.currentTime <= 34.730 ) {
     transcript9.style.color="orange";
-  } else if (vid.currentTime < 32.100 || vid.currentTime >= 34.730 ) {
+  } else if (vid.currentTime < 32.1 || vid.currentTime >= 34.730 ) {
     transcript9.style.color="black";
   }
 });
@@ -184,33 +184,33 @@ vid.addEventListener('timeupdate', function (){
 });
 
 vid.addEventListener('timeupdate', function (){
-  if (vid.currentTime > 46.300 && vid.currentTime <= 49.270 ) {
+  if (vid.currentTime > 46.300 && vid.currentTime <= 49.27 ) {
     transcript13.style.color="orange";
-  } else if (vid.currentTime < 46.300 || vid.currentTime >= 49.270 ) {
+  } else if (vid.currentTime < 46.300 || vid.currentTime >= 49.27 ) {
     transcript13.style.color="black";
   }
 });
 
 vid.addEventListener('timeupdate', function (){
-  if (vid.currentTime > 49.270 && vid.currentTime <= 53.760 ) {
+  if (vid.currentTime > 49.27 && vid.currentTime <= 53.760) {
     transcript14.style.color="orange";
-  } else if (vid.currentTime < 49.270 || vid.currentTime >= 53.760 ) {
+  } else if (vid.currentTime < 49.27 || vid.currentTime >= 53.760 ) {
     transcript14.style.color="black";
   }
 });
 
 vid.addEventListener('timeupdate', function (){
-  if (vid.currentTime > 53.760 && vid.currentTime <= 57.780 ) {
+  if (vid.currentTime > 53.760 && vid.currentTime <= 57.78 ) {
     transcript15.style.color="orange";
-  } else if (vid.currentTime < 53.760 || vid.currentTime >= 57.780 ) {
+  } else if (vid.currentTime < 53.760 || vid.currentTime >= 57.78 ) {
     transcript15.style.color="black";
   }
 });
 
 vid.addEventListener('timeupdate', function (){
-  if (vid.currentTime > 57.780 && vid.currentTime <= 60.150 ) {
+  if (vid.currentTime > 57.78 && vid.currentTime <= 60.15 ) {
     transcript16.style.color="orange";
-  } else if (vid.currentTime < 57.780 || vid.currentTime >= 60.150 ) {
+  } else if (vid.currentTime < 57.78 || vid.currentTime >= 60.15 ) {
     transcript16.style.color="black";
   }
 });
