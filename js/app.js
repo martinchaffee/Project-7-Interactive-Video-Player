@@ -88,7 +88,7 @@ transcript16.addEventListener('click', () => {
   //Use if/then statements w/ greater than and less than : if currentTime => x and <=y, transcript-1 color = orange; else color is inherit;
 
 vid.addEventListener('timeupdate', function (){
-  if (vid.currentTime > 0.240 && vid.currentTime <= 4.130 ) {
+  if (vid.currentTime > 0.023 && vid.currentTime <= 4.130 ) {
     transcript1.style.color="orange";
   } else if (vid.currentTime < 0.240 || vid.currentTime >= 4.130 ) {
     transcript1.style.color="black";

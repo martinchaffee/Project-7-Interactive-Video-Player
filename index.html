@@ -70,7 +70,10 @@
         </p>
       </div>
   <script>
-    $(document).ready(function(){$('video, audio').mediaelementplayer();});
+    $('video, audio').mediaelementplayer({
+        features:['playpause', 'current', 'progress', 'volume', 'fullscreen'],
+        startLanguage:'en'
+      });
   </script>
   <script type="text/javascript" src="js/app.js"></script>
   </body>
